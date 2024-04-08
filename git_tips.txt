@@ -1,0 +1,10 @@
+Here are some commands to use in CLI to accomplish moving info to GitHub
+> When copying your repository from GitHub to your local machine, select the SSH option under code
+    git clone [insert copied SSH URL] <- This is the command to use to clone your repository
+    git remove -v <- This is the command to display the URL of the repository you created on GitHub
+> git status <- Shows the current status of your branch compared to the main branch
+    git log <- Shows the log of activity that has taken place
+> git add [insert file name] <- This command adds the file to the staging area of git
+    git add . <- This will add all files in the current directory / subsequent directory to staging
+> git commit -m "[comments go here]" <- This will commit your build and let you leave comments
+> git push origin main <- This command will push your commits to GitHub and can be seen online
